@@ -1,0 +1,48 @@
+body {
+    background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #container{
+      margin:auto;
+      border:5px solid lightBlue;
+      font-size:30px;
+      padding:10px;
+      text-align:center;
+      height:260px;
+      width:600px;
+      margin-top: 10%;
+      background-color:#81c8f1;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    p{
+      color:rgb(29, 28, 28);
+    }
+    #userInput{
+      width:170px;
+      height:23px;
+    
+    }
+    #outputText{
+      color:rgb(1, 78, 114);
+      font-size: 25px;
+    }
+  
+    button {
+      padding: 5px 10px;
+      margin: 5px;
+      border-radius: 25px;
+      background-color:rgb(1, 78, 114); ;
+      color: rgb(247, 247, 247);
+  }
+  
