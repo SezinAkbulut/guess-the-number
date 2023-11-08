@@ -1,6 +1,5 @@
 body {
-    background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background:radial-gradient(at top,hsl(214, 47%, 23%), hsl(237, 49%, 15%));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +33,7 @@ body {
     
     }
     #outputText{
-      color:rgb(1, 78, 114);
+      color:rgb(255, 255, 255);
       font-size: 25px;
     }
   
@@ -42,7 +41,8 @@ body {
       padding: 5px 10px;
       margin: 5px;
       border-radius: 25px;
-      background-color:rgb(1, 78, 114); ;
-      color: rgb(247, 247, 247);
+      background-color:rgb(252, 252, 252); ;
+      color: rgb(1, 78, 114);
+      font-weight: 700;
   }
   

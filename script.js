@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         counter++;
         if (counter === 3) {
-            alert("Sorry! Only 3 guesses allowed!");
+            alert("This is your last chance! ");
             playButton.disabled = true;
             againButton.disabled = false;
         }
