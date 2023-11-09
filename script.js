@@ -26,15 +26,15 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         counter++;
-        if (counter === 3) {
-            alert("It was your last chance!");
+        if (counter === 4) {
+            alert("It was your last chance! The secret number was " +  computerNumber) ;
             playButton.disabled = true;
             againButton.disabled = false;
         }
     }
 
     function playAgain() {
-        computerNumber = Math.floor(Math.random() * 28) + 1;
+        computerNumber = 7;
         counter = 0;
         output.innerHTML = "Guess a number";
         playButton.disabled = false;
