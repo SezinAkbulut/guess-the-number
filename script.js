@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let computerNumber = 7;
+    let computerNumber = Math.floor(Math.random() * 28) + 1;
     let counter = 0;
     const playButton = document.getElementById('playButton');
     const againButton = document.getElementById('againButton');
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function playAgain() {
-        computerNumber = 7;
+        computerNumber = Math.floor(Math.random() * 28) + 1 ;
         counter = 0;
         output.innerHTML = "Guess a number";
         playButton.disabled = false;
