@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
             playButton.disabled = true;
             againButton.disabled = true;
             againButton.disabled = false;
-        } else if (input > computerNumber - 2 && computerNumber + 2) {
+        } else if (input >= computerNumber - 2 && input <= computerNumber + 2) {
             output.innerHTML = "So close, but you just missed it! Are you in a class that started on the thirteenth or what?";
             output.style.color = "orange";
         } else {
