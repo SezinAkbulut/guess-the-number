@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         counter++;
         if (counter === 3) {
-            alert("This is your last chance! ");
+            alert("It was your last chance!");
             playButton.disabled = true;
             againButton.disabled = false;
         }
