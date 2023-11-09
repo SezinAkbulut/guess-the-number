@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
             output.innerHTML = "So close, but you just missed it! Are you in a class that started on the thirteenth or what?";
             output.style.color = "orange";
         } else {
-            output.innerHTML = "Bummer... You guessed " + input + " and the secret number is not this";
+            output.innerHTML = "Bummer... You guessed " + input + " and this is not the secret number";
             output.style.color = "red";
         }
 
