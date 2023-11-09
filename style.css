@@ -13,7 +13,7 @@ body {
       font-size:30px;
       padding:10px;
       text-align:center;
-      height:260px;
+      height:460px;
       width:600px;
       margin-top: 10%;
       background-color:#81c8f1;
@@ -26,6 +26,9 @@ body {
     }
     p{
       color:rgb(29, 28, 28);
+      position: relative;
+      bottom: 2rem;
+    
     }
     #userInput{
       width:170px;
