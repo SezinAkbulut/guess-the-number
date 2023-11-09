@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         counter++;
         if (counter === 4) {
-            alert("It was your last chance! The secret number was " +  computerNumber) ;
+            alert("This was your last chance! The secret number was " +  computerNumber +  "." + " Please try again!") ;
             playButton.disabled = true;
             againButton.disabled = false;
         }
